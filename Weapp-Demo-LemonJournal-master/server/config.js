@@ -3,7 +3,7 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
-    appId: '',
+    appId: 'wx7e1f09e1f4fe4ee8',
 
     // 微信小程序 App Secret
     appSecret: '',
@@ -17,11 +17,11 @@ const CONF = {
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
     mysql: {
-        host: 'localhost',
+        host: '106.12.109.15',
         port: 3306,
-        user: 'root',
-        db: 'cAuth',
-        pass: '',
+        user: 'test1',
+        db: 'mariadb',
+        pass: '123456',
         char: 'utf8mb4'
     },
 
@@ -30,7 +30,7 @@ const CONF = {
          * 地区简称
          * @查看 https://cloud.tencent.com/document/product/436/6224
          */
-        region: 'ap-guangzhou',
+        region: 'ap-shenzhen',
         // Bucket 名称
         fileBucket: 'qcloudtest',
         // 文件夹
